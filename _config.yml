@@ -5,7 +5,7 @@ google_verify:       # Put your Google Verification here
 google_analytics:   UA-90247317-1
 
 # Site Settings
-baseurl:            "frinky.github.io" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            # Base URL must end WITHOUT a slash, default: ""
 
 # Site Build
 highlighter:        rouge
