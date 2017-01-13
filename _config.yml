@@ -17,7 +17,7 @@ sass:
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "CNAME" ]
+exclude:            [ "CNAME", ".DS_Store" ]
 gems:
   - jekyll-sitemap
 
