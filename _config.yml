@@ -1,23 +1,23 @@
 # Site Info
-title:              "Frinky"
-description:        "Your skin is the ocean."
-google_verify:       # Put your Google Verification here
-google_analytics:   UA-90247317-1
+title: "Frinky"
+description: "Your skin is the ocean."
+google_verify: # Put your Google Verification here
+google_analytics: UA-90247317-1
 
 # Site Settings
-baseurl:            ""
+baseurl: ""
 
 # Site Build
-highlighter:        rouge
-markdown:           kramdown
+highlighter: rouge
+markdown: kramdown
 kramdown:
-    input:          GFM
+    input: GFM
 sass:
-    style:          :compressed
+    style: :compressed
 
 # Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "CNAME", ".DS_Store" ]
+include: [ "robots.txt" ]
+exclude: [ "CNAME", ".DS_Store" ]
 gems:
   - jekyll-sitemap
 
@@ -25,11 +25,11 @@ gems:
 defaults:
   -
     scope:
-      path:         ""
+      path: ""
     values:
-      layout:       "null"
+      layout: "null"
   -
     scope:
-      type:         "pages"
+      type: "pages"
     values:
-      layout:       "page"
+      layout: "page"
